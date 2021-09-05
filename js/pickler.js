@@ -1,6 +1,6 @@
-import * as util from './util';
-import { handlers } from './handlers';
-import { tags } from './tags';
+import * as util from './util.js';
+import { handlers } from './handlers.js';
+import { tags } from './tags.js';
 
 export function encode(value, options) {
     const params = {
